@@ -103,7 +103,10 @@ imageInput.addEventListener('change', function() {
             mergeImages([uploadedImage, lavender, suitChain])
                 .then(b64 => document.querySelector('#generated_image').src = b64);
         }
-        else return
+        else {
+            mergeImages([uploadedImage])
+                .then(b64 => document.querySelector('#generated_image').src = b64);            
+        }
         
     })
     reader.readAsDataURL(this.files[0])

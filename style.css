@@ -57,7 +57,8 @@ h3 {
     justify-content: center;
     align-items: center;
     gap: 4em;
-
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .gen img {
@@ -89,6 +90,14 @@ input[type="file"] {
     border-radius: 10px;
     cursor: pointer;
 
+}
+
+.refresh {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    color: #fff;
+    filter: brightness(0) invert(1);
 }
 
 footer {

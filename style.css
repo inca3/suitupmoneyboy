@@ -41,9 +41,10 @@ h3 {
 }
 
 .moonrank {
-    color: #512da8 !important;
+    color: #7c68ac !important;
     font-weight: 700;
     transition: all 0.3s;
+    text-decoration: underline;
 }
 
 .moonrank:hover {

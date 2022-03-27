@@ -1,0 +1,9 @@
+white 
+yellow 
+pink
+purple
+orange
+teal
+blue
+green
+lavender

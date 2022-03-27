@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+a {
+    color: #fff;
+    font-weight: 700;
+}
+
+a:visited {
+    color: #fff;
+}
+
+body {
+    background-color: #222222;
+    color: #fff;
+}
+
+.info {
+    text-align: center;
+    
+}
+
+.squadbanner {
+    max-width: 100vw;
+    padding: 20px;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+h3 {
+    margin-bottom: 30px;
+}
+
+.moonrank {
+    color: #512da8 !important;
+    font-weight: 700;
+    transition: all 0.3s;
+}
+
+.moonrank:hover {
+    color: #fff !important;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+
+}
+
+.gen img {
+    max-width: 500px;
+}
+
+.check_bg_chain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    flex-wrap: wrap;
+    margin: 30px auto 10px auto;
+    
+}
+
+.chain {
+    color: goldenrod;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-btn {
+    padding: 20px;
+    background-color: #512da8;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 1em;
+    left: 1em;
+}
